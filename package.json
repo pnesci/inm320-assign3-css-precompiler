@@ -8,10 +8,18 @@
     "watch": "sass --watch src/scss:public/assets/css",
     "start": "concurrently \"npm run watch\" \"npm run dev\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnesci/inm320-assign3-css-precompiler.git"
+  },
   "keywords": [],
   "author": "Phil Nesci",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pnesci/inm320-assign3-css-precompiler/issues"
+  },
+  "homepage": "https://github.com/pnesci/inm320-assign3-css-precompiler#readme",
   "devDependencies": {
     "concurrently": "^9.2.1",
     "lite-server": "^2.6.1",
